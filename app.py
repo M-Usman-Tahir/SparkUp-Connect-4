@@ -52,9 +52,6 @@ def signup(usr):
     else:
         return render_template('Signup.html')
 
-# if 'user' in session:
-#     usr = session['user']
-
 @app.route('/<usr>', methods=['GET', 'POST'])
 def home(usr):
     if 'user' in session:
@@ -99,7 +96,7 @@ def Turns(ID, color):
         A.show()
     if key in [1, 2]:
         return jsonify(dict(redirect=f'Player {key}'))
-    return "aa"
+    return "UnKnown Try"
 
 
 if __name__ == '__main__':
