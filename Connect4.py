@@ -10,7 +10,6 @@ class Connect_4:
         self.board = np.empty(size)
         self.board[:] = np.nan
         self.connectDots = connect
-        # print(self.board)
     
     def show(self):
         print(self.board)
