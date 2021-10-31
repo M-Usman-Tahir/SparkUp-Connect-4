@@ -95,10 +95,11 @@ class Connect_4:
 
 A = None
 
-# A.show()
+if __name__ == '__main__':
+    # A.show()
 
-# while True:
-    # A.P1Turn((int(input("1: Enter row: ")), int(input("1: Enter col: "))))
-    # A.show()
-    # A.P2Turn((int(input("2: Enter row: ")), int(input("2: Enter col: "))))
-    # A.show()
+    # while True:
+    #     A.P1Turn((int(input("1: Enter row: ")), int(input("1: Enter col: "))))
+    #     A.show()
+    #     A.P2Turn((int(input("2: Enter row: ")), int(input("2: Enter col: "))))
+    #     A.show()
